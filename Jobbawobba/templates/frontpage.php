@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid shadow jum">
   <div class="container">
     <h1 class="display-4">Find a Job</h1>
     <form method="GET" action="index.php">
@@ -11,15 +11,15 @@
       <?php endforeach; ?>
     </select>
     <br>
-    <input type="submit" class="btn btn-lg btn-success" value="FIND">
+    <input type="submit" class="btn btn-lg btn-info" value="FIND">
     </form>
   </div>
 </div>
 
+<h3><?php echo $title; ?></h3>
 <div class="d-flex">
-  <h3><?php echo $title; ?></h3>
 <?php foreach($jobs as $job): ?>
-<div class="card m-5" style="width: 18rem;">
+<div class="card m-4 shadow" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title"><?php echo $job->job_title; ?></h5>
     <p class="card-text"><?php echo $job->description; ?></p>
@@ -28,8 +28,5 @@
 </div>
 <?php endforeach; ?>
 </div>
-
-<a href="https://www.youtube.com/watch?v=LEkjrQMmIK0">49 mins</a>
-
 
 <?php include 'inc/footer.php'; ?>

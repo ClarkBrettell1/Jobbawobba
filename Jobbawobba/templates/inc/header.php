@@ -9,12 +9,13 @@
 </head>
 <body>
 
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-light bg-light shadow">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="" alt="" width="30" height="24" class="d-inline-block align-top">
-      <h3><?php echo SITE_TITLE;?></h3>
+    <a class="navbar-brand d-flex" href="index.php">
+      <img src="img/search.png" alt="" width="48" height="48" class="d-inline-block align-top">
+      <h3 class="m-2"><?php echo SITE_TITLE;?></h3>
     </a>
+    <a href="create.php">Create a Job</a>
   </div>
 </nav>
 
