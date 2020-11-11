@@ -9,30 +9,20 @@
 </div>
 
 <div class="d-flex">
+
+
+<?php foreach($jobs as $job): ?>
 <div class="card m-5" style="width: 18rem;">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">View</a>
+    <h5 class="card-title"><?php echo $job->job_title; ?></h5>
+    <p class="card-text"><?php echo $job->description; ?></p>
+    <a href="#" class="btn btn-primary">View More</a>
   </div>
+</div>
+<?php endforeach; ?>
 </div>
 
-<div class="card m-5" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">View</a>
-  </div>
-</div>
-
-<div class="card m-5" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">View</a>
-  </div>
-</div>
-</div>
+<a href="https://www.youtube.com/watch?v=LEkjrQMmIK0">49 mins</a>
 
 
 <?php include 'inc/footer.php'; ?>
