@@ -16,10 +16,10 @@
   </div>
 </div>
 
-<h3><?php echo $title; ?></h3>
-<div class="d-flex">
+<h3 class="text-center"><?php echo $title; ?></h3>
+<div class="d-flex flex-wrap w-75 mx-auto">
 <?php foreach($jobs as $job): ?>
-<div class="card m-4 shadow" style="width: 18rem;">
+<div class="card m-4 shadow" style="width: 360px;">
   <div class="card-body">
     <h5 class="card-title"><?php echo $job->job_title; ?></h5>
     <p class="card-text"><?php echo $job->description; ?></p>

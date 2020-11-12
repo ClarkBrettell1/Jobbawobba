@@ -9,13 +9,19 @@
 </head>
 <body>
 
-<nav class="navbar navbar-light bg-light shadow">
-  <div class="container-fluid">
+<nav class="navbar navbar-light bg-light shadow d-flex">
+  <div class="container-fluid d-flex">
     <a class="navbar-brand d-flex" href="index.php">
-      <img src="img/search.png" alt="" width="48" height="48" class="d-inline-block align-top">
+      <img src="img/search.png" alt="" width="48" height="48">
       <h3 class="m-2"><?php echo SITE_TITLE;?></h3>
     </a>
+    <div class="d-flex flex-row-reverse align-items-center">
+    <a href="index.php" class="p-2">
+      <img src="img/home.png" alt="" width="48px" height="48px">
+    </a>
     <a href="create.php">Create a Job</a>
+    </div>
   </div>
 </nav>
+<?php displayMessage(); ?>
 
