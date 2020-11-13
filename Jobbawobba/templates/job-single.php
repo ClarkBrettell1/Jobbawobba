@@ -20,6 +20,14 @@
 <a class="btn-lg btn-primary mx-5" href="index.php">Go back</a>
 <br>
 <br>
+<div class="well">
+<a class="btn-lg btn-default" href="edit.php?id=<?php echo $job->id;?>">Edit</a>
+<form action="job.php" method="post" style="display:inline;">
+<input type="hidden" name="del_id" value="<?php echo $job->id; ?>">
+<input type="submit" class="btn-lg btn-danger" value="Delete">
+</form>
+</div>
+
 
 
 <?php include 'inc/footer.php'; ?>
