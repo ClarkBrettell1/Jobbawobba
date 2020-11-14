@@ -1,10 +1,11 @@
 <?php
 
-function redirect($page = FALSE, $message = NULL, $message_type = NULL){
-    if (is_string ($page)){
-        $location = $page;
+function redirect($page , $message , $message_type){
+    if (is_string($page)){
+        $_SESSION['Location:'] = $page;
     } else {
-        $location = $_SERVER ['SCRIPT_NAME'];
+    
+        $_SESSION['Location:'] = $page;
     }
     
     if($message != NULL) {
@@ -14,10 +15,8 @@ function redirect($page = FALSE, $message = NULL, $message_type = NULL){
     if($message_type != NULL){
         $_SESSION['message_type'] = $message_type;
     }
-
-    header('Location: '.$location);
-    exit;
-
+    header("Location:". $_SESSION['Location:']);
+    die();
 }
 
 function displayMessage() {

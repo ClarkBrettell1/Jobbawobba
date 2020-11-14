@@ -1,6 +1,6 @@
 <?php include_once 'config/init.php'; ?>
-
 <?php
+error_reporting(E_ALL|E_STRICT); 
 $job = new Job;
 
 if(isset($_POST['del_id'])){

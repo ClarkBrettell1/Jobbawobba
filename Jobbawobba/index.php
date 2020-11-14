@@ -1,5 +1,4 @@
 <?php include_once 'config/init.php'; ?>
-
 <?php
 $job = new Job;
 
@@ -21,3 +20,4 @@ if($category){
 $template->categories = $job->getAllCategories();
 
 echo $template;
+

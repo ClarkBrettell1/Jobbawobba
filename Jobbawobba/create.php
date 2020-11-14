@@ -1,8 +1,7 @@
 <?php include_once 'config/init.php'; ?>
-
 <?php
+error_reporting(E_ALL|E_STRICT); 
 $job = new Job;
-
 $job_id = isset($_GET['id']) ? $_GET['id'] : null;
 
 if(isset($_POST['submit'])){
@@ -16,17 +15,20 @@ if(isset($_POST['submit'])){
     $data['contact_user'] = $_POST['contact_user'];
     $data['contact_email'] = $_POST['contact_email'];
 
-    if($job->update($job_id, $data)){
-        redirect('index.php' , "Your job has been updated" , "success");
+    if($job->create($data)){
+        redirect('index', "Your job has created", "success");
+
+      
     } else{
-        redirect('index.php' , "Something went wrong" , "error");
+        redirect('index', "Something went wrong", "error");
+
     }
     
 }
 
 
-$template = new Template('templates/job-edit.php');
-
+$template = new Template('templates/job-create.php');
+$template->job = $job->getJob($job_id);
 $template->categories = $job->getAllCategories();
 
 echo $template;
