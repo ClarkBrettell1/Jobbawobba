@@ -22,6 +22,12 @@
     </a>
     <a href="create.php">Create a Job</a>
     </div>
+    <?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1) { ?>
+      <form action="logout.php" method="post">
+      <input type="submit" class="btn-lg btn-warning" value="log out" name="logout">
+    </form> 
+    <?php } 
+  else { ?> <?php }?>
   </div>
 </nav>
 <?php displayMessage(); ?>

@@ -54,4 +54,7 @@ class User {
             return FALSE;  
         }  
     } 
+    public function logout(){
+        session_destroy();
+    }
 }
