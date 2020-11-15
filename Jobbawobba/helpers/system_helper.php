@@ -1,5 +1,4 @@
 <?php
-
 function redirect($page , $message , $message_type){
     if (is_string($page)){
         $_SESSION['Location:'] = $page;
@@ -28,9 +27,9 @@ function displayMessage() {
             $message_type = $_SESSION['message_type'];
 
             if ($message_type == 'error'){
-                echo '<div class="alert alert-danger">' . $message . "</div>";
+                echo '<div class="alert alert-danger w-50 mx-auto">' . $message . "</div>";
             }else {
-                echo '<div class="alert alert-success">' . $message . "</div>";
+                echo '<div class="alert alert-success w-50 mx-auto">' . $message . "</div>";
             }
         }
             unset($_SESSION['message']);
@@ -39,4 +38,3 @@ function displayMessage() {
         echo '';
     }
 }
-

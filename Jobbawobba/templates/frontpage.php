@@ -1,5 +1,4 @@
 <?php include 'inc/header.php'; ?>
-
 <div class="jumbotron jumbotron-fluid shadow jum">
   <div class="container">
     <h1 class="display-4">Find a Job</h1>

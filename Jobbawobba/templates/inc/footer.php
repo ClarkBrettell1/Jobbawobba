@@ -1,6 +1,6 @@
 
 </body>
 <footer>
-   <p>Copyright JobbaWobba 2020</p> 
+   <p>Copyright The Job Goblin 2020</p> 
 </footer>
 </html>
