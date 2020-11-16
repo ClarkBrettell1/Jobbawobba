@@ -31,29 +31,3 @@
   </div>
 </nav>
 <?php displayMessage(); ?>
-<?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1) {
-  ?> <div>Welcome to the Job Goblin</div>  <?php } 
-  else { ?>
-<form style="background-color: #F0C278;" class="mx-auto my-5 w-75 p-5" action="register.php" method="post">
-  <h2>Sign Up</h2>    
-<div class="form-group">
-        <label for="username">Username</label>
-        <input type="text" class="form-control" name="username">
-        <label for="emailid">Email</label>
-        <input type="text" class="form-control" name="emailid">
-        <label for="password">Contact Email</label>
-        <input type="text" class="form-control" name="password">
-    </div>
-    <input type="submit" class="btn-info btn-lg p-2 m-4" value="Submit" name="submit">
-</form>
-
-<form style="background-color: #e0e0f6;" class="mx-auto my-5 w-75 p-5" action="login.php" method="post">
-  <h2>Login</h2>    
-<div class="form-group">
-        <label for="emailid">Email</label>
-        <input type="text" class="form-control" name="emailid">
-        <label for="password">Contact Email</label>
-        <input type="text" class="form-control" name="password">
-    </div>
-    <input type="submit" class="btn-info btn-lg p-2 m-4" value="Login" name="login">
-</form> <?php } ?>
