@@ -6,7 +6,7 @@
   </div>
   <div class="card-body">
       <h4 class="text-muted"><?php echo $job->company; ?></h4>
-    <h5 class="card-title"> Salary: <?php echo utf8_encode($job->salary); ?></h5>
+    <h5 class="card-title"> Salary: <?php echo $job->salary;?></h5>
     <h5 > Location: <?php echo $job->location; ?></h5>
     <p class="card-text px-5 py-1"> <?php echo $job->description; ?></p>
     <hr>
@@ -20,14 +20,19 @@
 <a class="btn-lg btn-primary mx-5" href="index.php">Go back</a>
 <br>
 <br>
-<div class="well">
-<a class="btn-lg btn-default" href="edit.php?id=<?php echo $job->id;?>">Edit</a>
-<form action="job.php" method="post" style="display:inline;">
-<input type="hidden" name="del_id" value="<?php echo $job->id; ?>">
-<input type="submit" class="btn-lg btn-danger" value="Delete">
-</form>
-</div>
 
 
+
+
+<?php if(isset($_SESSION['loggedin']) && $_SESSION['roleid'] == 2) {
+  ?><div class="well">
+  <a class="btn-lg btn-default" href="edit.php?id=<?php echo $job->id;?>">Edit</a>
+  <form action="job.php" method="post" style="display:inline;">
+  <input type="hidden" name="del_id" value="<?php echo $job->id; ?>">
+  <input type="submit" class="btn-lg btn-danger" value="Delete">
+  </form>
+  </div> <?php } 
+  else { ?>
+<?php } ?>
 
 <?php include 'inc/footer.php'; ?>

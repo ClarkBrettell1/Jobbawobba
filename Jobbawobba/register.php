@@ -8,10 +8,11 @@ if(isset($_POST['submit'])){
     $data['username'] = $_POST['username'];
     $data['emailid'] = $_POST['emailid'];
     $data['password'] = $_POST['password'];
+    $data['roleid'] = 1;
 
 
     if($user->createUser($data)){
-        redirect('index', "Your job has created", "success");
+        redirect('index', "Your accound has been created", "success");
     } else{
         redirect('index', "Something went wrong", "error");
     }

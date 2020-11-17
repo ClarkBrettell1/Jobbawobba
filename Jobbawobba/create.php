@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
     $data['contact_email'] = $_POST['contact_email'];
 
     if($job->create($data)){
-        redirect('index', "Your Account was created", "success");
+        redirect('index', "Your job was created", "success");
 
       
     } else{

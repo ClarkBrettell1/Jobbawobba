@@ -17,18 +17,18 @@ class User {
         $this->db->bind(":user_id" , $user_id);
 
         $row = $this->db->single();
-
         return $row;
     }
 
     public function createUser($data) {
-        $this->db->query("INSERT INTO users(username, emailid, password)
+        $this->db->query("INSERT INTO users(username, emailid, password , roleid)
         
-                        VALUES(:username, :emailid, :password )");
+                        VALUES(:username, :emailid, :password, :roleid )");
 
                 $this->db->bind(':username' , $data['username']);
                 $this->db->bind(':emailid' , $data['emailid']);
                 $this->db->bind(':password' , md5($data['password']));
+                $this->db->bind(':roleid' , $data['roleid']);
       
                 if($this->db->execute()){
                     return true;
@@ -45,6 +45,7 @@ class User {
             $_SESSION['loggedin'] = '1';
             $_SESSION['username'] = $vars['username'];
             $_SESSION['email'] = $vars['emailid'];
+            $_SESSION['roleid'] = $vars['roleid'];
             return TRUE;  
         }  
         else  
