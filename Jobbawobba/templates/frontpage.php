@@ -2,7 +2,7 @@
 <?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == 1) {
   ?> <?php } 
   else { ?>
-<form style="background-color: #F0C278;" class="mx-auto my-5 w-75 p-5" action="register.php" method="post">
+<form style="background-color: #F0C278;" class="mx-auto my-2 w-75 p-5" action="register.php" method="post">
   <h2>Sign Up</h2>    
 <div class="form-group">
         <label for="username">Username</label>
@@ -40,7 +40,7 @@
 <h3 class="text-center"><?php echo $title; ?></h3>
 <div class="d-flex flex-wrap w-75 mx-auto">
 <?php foreach($jobs as $job): ?>
-<div class="card m-2 shadow job-card" style="width: 360px;">
+<div class="card m-2 shadow job-card">
   <div class="card-body">
     <h5 class="card-title"><?php echo $job->job_title; ?></h5>
     <p class="card-text"><?php echo $job->description; ?></p>

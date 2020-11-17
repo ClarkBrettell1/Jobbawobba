@@ -17,3 +17,22 @@ footer>p {
 .job-card{
     width: 30% !important;
 }
+
+
+@media only screen and (max-width: 1000px) and (min-width: 751px) {
+
+    .job-card{
+        width: 45% !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    .job-card{
+        width: 100% !important;
+    }
+    
+}
+
