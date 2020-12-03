@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8779bb00-a99c-4690-8f2f-ad6a34dea8ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/monarch.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/monarchs.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulper/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gulper/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jobbawobba/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Jobbawobba/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606931845257</updated>
       <workItem from="1606931846290" duration="708000" />
-      <workItem from="1607008060932" duration="20722000" />
+      <workItem from="1607008060932" duration="21327000" />
     </task>
     <servers />
   </component>
