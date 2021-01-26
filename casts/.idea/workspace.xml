@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8779bb00-a99c-4690-8f2f-ad6a34dea8ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/ResourceFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SunderlandSamba/resources/js/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SunderlandSamba/resources/js/components/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/components/Contact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SunderlandSamba/resources/js/components/Player.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/components/Player.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SunderlandSamba/resources/js/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SunderlandSamba/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AssignmentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MonarchController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Assignment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Monarch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_03_173442_create_monarches_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_03_185604_create_assignments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/monarch.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/monarchs.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulper/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulper/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +42,15 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -132,14 +168,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pizzahouse" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../history" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clark\Documents\github\casts\resources\views\monarch" />
       <recent name="C:\Users\Clark\Documents\github\casts" />
       <recent name="C:\Users\Clark\Documents\github\casts\public\css" />
     </key>
@@ -159,7 +200,19 @@
       <option name="presentableId" value="Default" />
       <updated>1606931845257</updated>
       <workItem from="1606931846290" duration="708000" />
-      <workItem from="1607008060932" duration="21327000" />
+      <workItem from="1607008060932" duration="22786000" />
+      <workItem from="1607085505752" duration="1279000" />
+      <workItem from="1607177115159" duration="362000" />
+      <workItem from="1607430157277" duration="19995000" />
+      <workItem from="1607690696064" duration="2806000" />
+      <workItem from="1607693638878" duration="16486000" />
+      <workItem from="1607868652462" duration="4815000" />
+      <workItem from="1607961790561" duration="602000" />
+      <workItem from="1608399732450" duration="3089000" />
+      <workItem from="1608571693918" duration="14000" />
+      <workItem from="1610017920794" duration="613000" />
+      <workItem from="1610742373658" duration="9000" />
+      <workItem from="1610911430305" duration="15000" />
     </task>
     <servers />
   </component>
@@ -167,25 +220,41 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1231" y="1480" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607032620445">
-      <screen x="-1921" y="1205" width="1920" height="1040" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1607722264450">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1080.-987.1080.1880/0.0.1920.1040/11.-1080.1920.1040@0.0.1920.1040" timestamp="1607722264450" />
     <state x="-1231" y="1480" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2457.1341/-1921.1205.1920.1040/-1920.125.1920.1040@-1921.1205.1920.1040" timestamp="1607032620445" />
-    <state x="-1181" y="1480" key="FileChooserDialogImpl" timestamp="1607016129959">
-      <screen x="-1921" y="1205" width="1920" height="1040" />
+    <state x="937" y="351" key="FileChooserDialogImpl" timestamp="1610911443861">
+      <screen x="0" y="0" width="2432" height="1328" />
     </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1080.-987.1080.1880/0.0.1920.1040/11.-1080.1920.1040@0.0.1920.1040" timestamp="1608571706489" />
+    <state x="937" y="351" key="FileChooserDialogImpl/0.0.2432.1328/-1920.1087.1920.1040/-1920.7.1920.1040@0.0.2432.1328" timestamp="1610911443861" />
+    <state x="937" y="351" key="FileChooserDialogImpl/0.0.2432.1328/-1920.7.1920.1040/-1920.1087.1920.1040@0.0.2432.1328" timestamp="1610742380241" />
     <state x="-1181" y="1480" key="FileChooserDialogImpl/0.0.2457.1341/-1921.1205.1920.1040/-1920.125.1920.1040@-1921.1205.1920.1040" timestamp="1607016129959" />
-    <state x="-1224" y="1448" key="NewPhpClassDialog" timestamp="1607009048805">
-      <screen x="-1921" y="1205" width="1920" height="1040" />
+    <state x="697" y="243" key="NewPhpClassDialog" timestamp="1607719506534">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="697" y="243" key="NewPhpClassDialog/-1080.-987.1080.1880/0.0.1920.1040/11.-1080.1920.1040@0.0.1920.1040" timestamp="1607719506534" />
     <state x="-1224" y="1448" key="NewPhpClassDialog/0.0.2457.1341/-1921.1205.1920.1040/-1920.125.1920.1040@-1921.1205.1920.1040" timestamp="1607009048805" />
-    <state x="-1127" y="1648" key="NewPhpFileDialog" timestamp="1607032552571">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1607721781250">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/-1080.-987.1080.1880/0.0.1920.1040/11.-1080.1920.1040@0.0.1920.1040" timestamp="1607721781250" />
+    <state x="-1127" y="1648" key="NewPhpFileDialog/0.0.2457.1341/-1921.1205.1920.1040/-1920.125.1920.1040@-1921.1205.1920.1040" timestamp="1607442062308" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1608402432643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/-1080.-987.1080.1880/0.0.1920.1040/11.-1080.1920.1040@0.0.1920.1040" timestamp="1608402432643" />
+    <state x="-1369" y="1458" key="Vcs.Push.Dialog.v2" timestamp="1607457237429">
       <screen x="-1921" y="1205" width="1920" height="1040" />
     </state>
-    <state x="-1127" y="1648" key="NewPhpFileDialog/0.0.2457.1341/-1921.1205.1920.1040/-1920.125.1920.1040@-1921.1205.1920.1040" timestamp="1607032552571" />
-    <state x="-1921" y="1305" width="1429" height="1027" key="dock-window-1" timestamp="1607033196620">
-      <screen x="-1921" y="1205" width="1920" height="1040" />
+    <state x="-1369" y="1458" key="Vcs.Push.Dialog.v2/0.0.2457.1341/-1921.1205.1920.1040/-1920.125.1920.1040@-1921.1205.1920.1040" timestamp="1607457237429" />
+    <state x="-1080" y="-613" width="1096" height="709" key="dock-window-1" timestamp="1607977820986">
+      <screen x="-1080" y="-987" width="1080" height="1880" />
     </state>
+    <state x="-1080" y="-613" width="1096" height="709" key="dock-window-1/-1080.-987.1080.1880/0.0.1920.1040/11.-1080.1920.1040@0.0.1920.1040" timestamp="1607977820986" />
+    <state x="127" y="77" width="1511" height="844" key="dock-window-1/-1080.-987.1080.1880/0.0.1920.1040/11.-1080.1920.1040@11.-1080.1920.1040" timestamp="1607726109927" />
     <state x="-1921" y="1305" width="1429" height="1027" key="dock-window-1/0.0.2457.1341/-1921.1205.1920.1040/-1920.125.1920.1040@-1921.1205.1920.1040" timestamp="1607033196620" />
     <state x="-1255" y="1458" width="587" height="534" key="find.popup" timestamp="1607015973389">
       <screen x="-1921" y="1205" width="1920" height="1040" />

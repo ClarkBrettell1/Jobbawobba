@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03e1efeb-251c-4527-b33a-b2c505c95178" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1gbOOp0eUVppdyAdMi1iFKCrGsU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Clark\Documents\github\legion2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clark\Documents\github\legion\assets\sounds" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03e1efeb-251c-4527-b33a-b2c505c95178" name="Default Changelist" comment="" />
+      <created>1598379795814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598379795814</updated>
+      <workItem from="1598379797038" duration="5761000" />
+      <workItem from="1598391358179" duration="6604000" />
+      <workItem from="1598553616799" duration="1676000" />
+      <workItem from="1598817332204" duration="3387000" />
+      <workItem from="1598893514902" duration="2782000" />
+      <workItem from="1599166091597" duration="4028000" />
+      <workItem from="1599253702736" duration="9000" />
+      <workItem from="1603392412179" duration="4531000" />
+      <workItem from="1603897249085" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="594" y="298" width="731" height="479" key="EditFileWatcherDialog" timestamp="1598381144247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="594" y="298" width="731" height="479" key="EditFileWatcherDialog/-1080.-1083.1080.1880/0.0.1920.1040/11.-1080.1920.1080@0.0.1920.1040" timestamp="1598381144247" />
+    <state x="2766" y="-754" key="FileChooserDialogImpl" timestamp="1603897270465">
+      <screen x="1920" y="-1080" width="2194" height="1234" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/-1080.-1083.1080.1880/0.0.1920.1040/11.-1080.1920.1080@0.0.1920.1040" timestamp="1599253709924" />
+    <state x="2766" y="-754" key="FileChooserDialogImpl/0.-1080.1920.1040/0.0.1920.1040/1920.-1080.2194.1234@1920.-1080.2194.1234" timestamp="1603897270465" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1598379900515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/-1080.-1083.1080.1880/0.0.1920.1040/11.-1080.1920.1080@0.0.1920.1040" timestamp="1598379900515" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1598381144972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/-1080.-1083.1080.1880/0.0.1920.1040/11.-1080.1920.1080@0.0.1920.1040" timestamp="1598381144972" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1599253704191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/-1080.-1083.1080.1880/0.0.1920.1040/11.-1080.1920.1080@0.0.1920.1040" timestamp="1599253704191" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599167038172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1080.-1083.1080.1880/0.0.1920.1040/11.-1080.1920.1080@0.0.1920.1040" timestamp="1599167038172" />
+  </component>
+</project>

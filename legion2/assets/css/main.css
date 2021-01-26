@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "lato";
+  font-weight: bolder;
+}
+html p {
+  font-family: "lato";
+  font-weight: bolder;
+}
+html header {
+  text-align: center;
+}
+html header .nav-wrap {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.main-nav {
+  background: #ffdd33;
+}
+.main-nav nav {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.main-nav nav #nav-link-wrap {
+  background: #fd3;
+  padding: 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.main-nav nav #nav-link-wrap li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 2%;
+  height: 45px;
+  line-height: 45px;
+}
+.main-nav nav #nav-link-wrap a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.nav-wrap {
+  position: relative;
+  background-color: white;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+.nav-wrap .cta-button {
+  background: #fd3;
+  color: black;
+  padding: 0 10px;
+  height: 50px;
+  display: inline-block;
+  line-height: 45px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.nav-wrap .cta-button span {
+  padding: 0px 10px;
+}
+.nav-wrap img {
+  opacity: 1;
+}
+.nav-wrap h1 {
+  color: orange;
+  opacity: 1;
+}
+.nav-wrap a {
+  text-decoration: none;
+  color: orange;
+  padding: 15px;
+  font-size: 18px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.nav-wrap a .logo {
+  width: 80px;
+  padding: 0;
+  margin: 0;
+}
+.nav-wrap #nav-social-wrap a {
+  padding: 0;
+  margin: 0;
+}
+body#about h1 {
+  padding: 10px 0 0 0;
+  margin: 3px;
+}
+body#about p {
+  padding: 10px 5px 5px 5px;
+  margin: 3px;
+}
+body#dates h1 {
+  padding: 10px 0 0 0;
+  margin: 3px;
+}
+body#dates p {
+  padding: 10px 5px 5px 5px;
+  margin: 3px;
+}
+body#form h1 {
+  padding: 10px 0 0 0;
+  margin: 3px;
+}
+body#form p {
+  padding: 10px 5px 5px 5px;
+  margin: 3px;
+}
+body#form .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 500px;
+  padding: 10px 0px;
+}
+body#form .container .form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto;
+  width: 50%;
+  background-color: #fd3;
+}
+body#form .container .form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+body#form .container .form .form-group label {
+  color: darkslategray;
+  padding: 10px 0px 3px 0px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin: 0 0 0 -3px;
+}
+body#form .container .form button {
+  display: flex;
+  background: darkslategray;
+  padding: 15px;
+  color: #fd3;
+  outline: none;
+  border: none;
+  margin: 10px auto 5px auto;
+  cursor: pointer;
+}
+body#form .container .form input {
+  border: 0;
+  padding: 10px;
+  outline: none;
+  box-shadow: none;
+}
+body#form .container .form textarea {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+.icon {
+  color: orange;
+  font-size: 32px !important;
+  padding: 5px 10px;
+}
+.hero-section {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  background-image: url('../img/1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 80px;
+  text-align: center;
+  color: #fd3;
+}
+footer p {
+  padding: 10px;
+  font-size: medium;
+}
+.usp-box {
+  display: flex;
+  justify-content: center;
+}
+.usp {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+  text-transform: uppercase;
+  color: orange;
+}
+.usp-icon {
+  font-size: 32px !important;
+  color: #fd3;
+}
+.grey-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  justify-items: center;
+}
+.grey-wrapper h1 {
+  font-size: 1.7rem;
+  color: orange;
+  text-transform: uppercase;
+  padding: 10px 5px 20px 5px;
+}
+#audio-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 10px 5px 20px 5px;
+  margin: 5px;
+  width: 50%;
+  min-width: 300px;
+}
+#audio-wrap h1 {
+  color: #fd3;
+  text-transform: uppercase;
+}
+#audio-wrap audio {
+  width: 100%;
+  max-width: 550px;
+}
+.mobile-menu {
+  display: none;
+}
+#live-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  padding: 5px;
+  margin: 0 auto;
+}
+.hamburger {
+  display: none !important;
+}
+@media only screen and (max-width: 950px) {
+  #nav-link-wrap {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .usp {
+    display: none;
+  }
+  #nav-link-wrap {
+    display: none !important;
+  }
+  .hamburger {
+    display: flex !important;
+  }
+  .icon {
+    font-size: 20px !important;
+    padding: 2px;
+  }
+  .nav-wrap h1 {
+    font-size: 1.3rem;
+  }
+  .hero-section {
+    height: 140px;
+    width: 100%;
+  }
+  .page-title {
+    position: absolute;
+    color: orange;
+    top: 20px;
+    left: 35px;
+    font-weight: 700;
+    font-size: medium;
+    text-transform: uppercase;
+  }
+  .mobile-menu {
+    height: 40vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .mobile-menu a {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    text-decoration: none;
+    color: #fd3;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.3rem;
+  }
+  .mobile-menu a:hover {
+    background-color: orange;
+    color: white;
+  }
+  .cross {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    z-index: 100;
+    padding: 20px;
+    z-index: 999;
+    color: #fd3;
+    font-size: 40px !important;
+    cursor: pointer;
+  }
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: flex !important;
+}
+@media only screen and (max-width: 550px) {
+  body#form .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    padding: 10px 10px;
+  }
+  body#form .container .form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  body#form .container .form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  body#form .container .form .form-group label {
+    color: darkslategray;
+    padding: 5px 0px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+  }
+}

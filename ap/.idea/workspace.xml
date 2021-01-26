@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="902cf229-f5d5-47d7-a2df-a9741ad5589c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/components/Contact.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/components/Player.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/js/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SunderlandSamba/resources/views/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../casts/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/app/Http/Controllers/AssignmentController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/app/Http/Controllers/MonarchController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/app/Models/Assignment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/app/Models/Monarch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/database/migrations/2020_12_03_173442_create_monarches_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/database/migrations/2020_12_03_185604_create_assignments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/public/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/public/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/resources/views/monarch.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/resources/views/monarchs.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../casts/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/../casts/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulper/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gulper/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1mjnrXJkEyJj60FrOuAcMnAFGq7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../casts" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902cf229-f5d5-47d7-a2df-a9741ad5589c" name="Default Changelist" comment="" />
+      <created>1610016066144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610016066144</updated>
+      <workItem from="1610016067192" duration="1020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1180" y="1362" key="FileChooserDialogImpl" timestamp="1610017917280">
+      <screen x="-1920" y="1087" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="1362" key="FileChooserDialogImpl/0.0.2432.1328/-1920.1087.1920.1040/-1920.7.1920.1040@-1920.1087.1920.1040" timestamp="1610017917280" />
+  </component>
+</project>

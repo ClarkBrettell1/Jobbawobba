@@ -2,7 +2,7 @@
     <div class="card-expansion">
         <md-card class="my-5 mx-5">
             <md-card-media>
-                <img src="img/nd.jpg" alt="Nathan Dodd Sunderland Samba">
+                <img src="img/nd.jpg" alt="Nathan Dodd Sunderland Samba" class="p-3">
             </md-card-media>
 
             <md-card-header>
