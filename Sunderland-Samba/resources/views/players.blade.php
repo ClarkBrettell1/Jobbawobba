@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
+    <h1 class="text-center">Sunderland Samba Squad</h1>
     <div class="d-flex flex-wrap p-1">
         @foreach($players as $player)
             <div class="card m-4" style="width: 18rem;">
@@ -14,4 +15,5 @@
             </div>
         @endforeach
     </div>
+    <a class="btn btn-primary m-1 p-2 border rounded" href="/">Home</a>
 @endsection
